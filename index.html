@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>My Groceries</h1>
+    <div id="enter_item">
+    <p>Enter Grocery:</p>
+    <input type="text" id="list_item">
+    <br>
+    <button id="submit_btn" onclick="submit()">Submit</button>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="show_list">
+    <span id="show_txt">See List</span>
+    <select id="show_dropdown">
+        <option value="unsorted">Unsorted</option>
+        <option value="sorted">Sorted</option>
+    </select>
+    <!--Write the HTML code for showing the sorted or unsorted list-->
+    <div id="list_txt"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="search_box">
+        <span id="search_txt">Search List:</span>
+        <input type="text" id="searcher">
+        <br>
+        <button id="search_btn">Search</button>
+    </div>
+</body>
+</html>

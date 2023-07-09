@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+#submit_btn {
+    background-color:rgb(253, 241, 222);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#search_btn {
+    background-color: rgb(253, 241, 222);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#show_dropdown {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 6px;
+    background-color: rgb(253, 241, 222);
+}
+
+hr {
+    width: 500px;
+}
